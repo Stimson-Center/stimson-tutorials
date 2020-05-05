@@ -1,0 +1,9 @@
+# Packages coming from PyPi
+sklearn
+gensim
+nltk
+numpy
+pandas
+jupyter
+jupyter_http_over_ws
+nbformat

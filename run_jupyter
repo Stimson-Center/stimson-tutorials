@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+
+import subprocess
+
+process = subprocess.run(['pip3', 'install', '-r', 'requirements.txt'], stdout=subprocess.PIPE, universal_newlines=True)
+# process = subprocess.run(['yes', '|', 'jupyter', 'notebook', '--generate-config'], stdout=subprocess.PIPE, universal_newlines=True)
+process = subprocess.run(['jupyter', 'serverextension', 'enable', '--py', 'jupyter_http_over_ws'], stdout=subprocess.PIPE, universal_newlines=True)
+process = subprocess.run(['jupyter', 'notebook', '--notebook-dir=notebooks', '--ip', '0.0.0.0', '--allow-root'], stdout=subprocess.PIPE, universal_newlines=True)
+
