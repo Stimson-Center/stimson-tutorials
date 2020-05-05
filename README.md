@@ -48,13 +48,14 @@ Projects derived from Priya Dwivedi, Data Scientist:
 # get project files
 
 ```bash
-    cd
+    cd ~
     git clone https://github.com/praktikos/stimson-tutorials.git
 ```
 
-# Optionally Run Locally
+# Optionally Run Locally in a Terminal or Command Window
 
 ```bash
+    cd ~/stimson-tutorials
     pip3 install -r requirements.txt
     python3 -m spacy download en
     ./run_jupyter
@@ -68,7 +69,7 @@ Your browser will automatically open to the notebooks folder, click on any iPyth
     brew install docker
     docker --version
 
-    cd stimson-tutorials
+    cd ~/stimson-tutorials
     docker build -t stimson-tutorials .
     docker run --user $(id -u):$(id -g) -p 8888:8888 -v $(PWD):/tf -it stimson-tutorials
 ```
