@@ -1,9 +1,12 @@
 # Packages coming from PyPi
-sklearn
+faker
 gensim
+matlab
 nltk
 numpy
 pandas
+seaborn
+sklearn
 jupyter
 jupyter_http_over_ws
 nbformat
