@@ -39,11 +39,18 @@ Projects derived from Priya Dwivedi, Data Scientist:
 
     brew install python3
     python3 --version 
-        Python 3.7.6
+        Python 3.7.7
         
     pip3 install -U pytest
     py.test --version
         This is pytest version 5.0.1, imported from /usr/local/lib/python3.7/site-packages/pytest.py
+
+    Get tokens from vendors and add the following environment variables
+	export GOOGLE_SECRET_API_KEY="38AlphaNumericalCharacters"
+	export GOOGLE_SECRET_CUSTOM_SEARCH_ID="21Numerals:11AlphaNumericCharacters"
+        export GOOGLE_APPLICATION_CREDENTIALS=~/your_google_application_credential_files.json
+        # https://account.mapbox.com/auth/signup/?route-to=%22https://account.mapbox.com/access-tokens/%22
+	export MAPBOX_ACCESS_TOKEN="pk.86AlphaNumericCharacters"
 ```
 # get project files
 
