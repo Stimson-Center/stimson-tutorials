@@ -1,10 +1,12 @@
 # Packages coming from PyPi
+beautifulsoup4
 faker
 gensim
 matlab
 nltk
 numpy
 pandas
+requests
 seaborn
 sklearn
 jupyter
