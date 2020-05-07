@@ -113,7 +113,7 @@ Open your browser to http://127.0.0.1:8888/?token=..., navigate to notebooks -> 
 ```bash
   pip3 install -U pytest
   pip3 install -U nbval
-  py.test --nbval notebooks/LDA_Newsgroup.ipynb
+  py.test --nbval notebooks/analyze_surveymonkey_results.ipynb
 ```
 
 ## Debugging Docker Virtual Machine
