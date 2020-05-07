@@ -114,6 +114,13 @@ Open your browser to http://127.0.0.1:8888/?token=..., navigate to notebooks -> 
   pip3 install -U pytest
   pip3 install -U nbval
   py.test --nbval notebooks/analyze_surveymonkey_results.ipynb
+  open https://jsonformatter.curiousconcept.com/
+```
+
+You can copy the contents of a ipynb file and paste into the following JSON validator and Reformatter to fix any issues.
+
+```bash
+  open https://jsonformatter.curiousconcept.com/
 ```
 
 ## Debugging Docker Virtual Machine
