@@ -10,6 +10,7 @@ pandas
 requests
 seaborn
 sklearn
+stimson-web-scraper
 jupyter
 jupyter_http_over_ws
 nbformat
