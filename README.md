@@ -130,3 +130,11 @@ docker run -u $(id -u):$(id -g) -it -v `pwd`:/mnt --entrypoint=/bin/bash  stimso
     (you are automatically put into: /mnt )
 ```
 
+# Contributing
+   * Fork it
+   * Create your feature branch (`git checkout -b your_github_name-feature`)
+   * Commit your changes (`git commit -am 'Added some feature'`)
+   * Make sure to add tests for it. This is important so we don't break it in a future version unintentionally.
+   * [File an Issue](https://github.com/https://github.com/Stimson-Center/stimson-tutorials/issues)
+   * Push to the branch (`git push origin your_github_name-feature`)
+   * Create new Pull Request
