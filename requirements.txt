@@ -1,15 +1,22 @@
 # Packages coming from PyPi
 beautifulsoup4
+datasketch
 faker
 gensim
+graphviz
 mapboxgl
 matlab
+matplotlib
+networkx
 nltk
 numpy
 pandas
+pytextrank
 requests
 seaborn
 sklearn
+spacy==2.1.8
+statistics
 stimson-web-scraper
 jupyter
 jupyter_http_over_ws

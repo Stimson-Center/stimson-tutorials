@@ -64,7 +64,8 @@ Projects derived from Priya Dwivedi, Data Scientist:
 ```bash
     cd ~/stimson-tutorials
     pip3 install -r requirements.txt
-    python3 -m spacy download en
+    python -m spacy download en_core_web_sm
+    python3 -m spacy validate
     ./run_jupyter
 ```
 Your browser will automatically open to the notebooks folder, click on any iPython tutorial i.e.: LDA_Newsgroup.ipynb
