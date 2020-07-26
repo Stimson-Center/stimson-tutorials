@@ -3,7 +3,11 @@ name: Bug report
 about: Create a report to help us improve
 title: ''
 labels: ''
+<<<<<<< HEAD
 assignees: ''
+=======
+assignees: ascooper57
+>>>>>>> a8a14870e4642866f82e7cd63340c3b854c07bce
 
 ---
 
